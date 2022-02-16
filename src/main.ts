@@ -32,7 +32,7 @@ async function bootstrap() {
   const staticAssets = join(__dirname, '..', 'static'); 
   app.useStaticAssets(staticAssets);
 
-  //start the applicatino
-  await app.listen(3001);
+  //start the application
+  await app.listen(3002);
 }
 bootstrap();
