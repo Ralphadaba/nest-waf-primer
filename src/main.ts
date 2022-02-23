@@ -33,6 +33,6 @@ async function bootstrap() {
   app.useStaticAssets(staticAssets);
 
   //start the application
-  await app.listen(3002);
+  await app.listen(3009);
 }
 bootstrap();
